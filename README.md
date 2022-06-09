@@ -47,5 +47,5 @@ The jupyter notebook ```picrispr.ipynb``` contains testing as well, which can be
 Unzip ```models/models_torch.zip```.
 
 ## Data preparation
-In order to predict on custom off-target cleavage data, it must be annotated with epigenetic markers and physically informed features as detailed in the [publication](https://www.biorxiv.org/content/10.1101/2021.11.16.468799v1).
+In order to predict on custom off-target cleavage data, it must be annotated with epigenetic markers and physically informed features as detailed in the [publication](https://www.biorxiv.org/content/10.1101/2021.11.16.468799v2).
 
