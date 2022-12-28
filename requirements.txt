@@ -1,0 +1,10 @@
+python==3.8.3
+torch==1.7.0
+tensorflow==2.3.1
+sklearn==0.23.1
+scipy==1.5.0
+numpy==1.18.5
+pandas==1.0.5
+xgboost==1.4.2
+matplotlib==3.2.2
+pickle==4.0
