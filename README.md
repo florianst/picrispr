@@ -9,7 +9,7 @@ python picrispr.py test_input.csv
 ```
 Positional arguments are:
 - input file: path to input csv file
-- model number: integer between ```0``` and ```5``` to choose which model is used, order corresponds to the one within the publication
+- model number: integer between ```0``` and ```7``` to choose which model is used, order corresponds to the one within the publication
 - path to models: path to folder where models are saved, default is ```models```
 - regression: ```True``` or ```False```
 
@@ -37,8 +37,6 @@ Running piCRISPR like this results in an output file ```output.csv``` with colum
 - ground truth: true label, if given in the input file as column ```cleavage_freq```
 - ground truth_transformed: true label transformed to lie between 0 and 1, if a true label has been given in the input file as column ```cleavage_freq```
 
-The jupyter notebook ```picrispr.ipynb``` contains testing as well, which can be done according to the two different scenarios described in the publication. This is configurable via the boolean variable ```compare_deepcrispr```.
-
 
 ## Requirements
 ```python==3.8.3, jupyter-notebook==6.0.3, torch==1.7.0, tensorflow==2.3.1, sklearn==0.23.1, scipy==1.5.0, numpy==1.18.5, pandas==1.0.5, xgboost==1.4.2, matplotlib==3.2.2, pickle==4.0```
@@ -47,5 +45,5 @@ The jupyter notebook ```picrispr.ipynb``` contains testing as well, which can be
 Unzip ```models/models_torch.zip```.
 
 ## Data preparation
-In order to predict on custom off-target cleavage data, it must be annotated with epigenetic markers and physically informed features as detailed in the [publication](https://www.biorxiv.org/content/10.1101/2021.11.16.468799v2).
+In order to predict on custom off-target cleavage data, it must be annotated with epigenetic markers and physically informed features as detailed in the [publication](https://www.biorxiv.org/content/10.1101/2021.11.16.468799v3).
 
