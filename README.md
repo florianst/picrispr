@@ -45,5 +45,5 @@ Running piCRISPR like this results in an output file ```output.csv``` with colum
 Unzip ```models/models_torch.zip```.
 
 ## Data preparation
-In order to predict on custom off-target cleavage data, it must be annotated with epigenetic markers and physically informed features as detailed in the [publication](https://www.biorxiv.org/content/10.1101/2021.11.16.468799v3).
+In order to predict on custom off-target cleavage data, it must be annotated with epigenetic markers and physically informed features as detailed in the [publication](https://www.biorxiv.org/content/10.1101/2021.11.16.468799v3). We provide a readily annotated dataset in the file [offtarget_260520_nuc.csv.zip](https://github.com/florianst/picrispr/blob/main/offtarget_260520_nuc.csv.zip) which contains a zip-compressed pandas dataframe and can be loaded using ```pd.read_csv('offtarget_260520_nuc.csv.zip')```.
 
